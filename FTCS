@@ -59,3 +59,7 @@ u_new(j) = (1-2*c*mu)*u_old(j) + c*mu*(1-alpha)*u_old(j+1) + c*mu*(1+alpha)*u_ol
     plot(x,u_new,'-^'), ylim([-2 2]), xlim([0 2]), hold on
 
     xlabel('x'), ylabel('U'),
+      legend('approximate'), title('Soltuion at t = .8'), pause,
+ end 
+
+end
